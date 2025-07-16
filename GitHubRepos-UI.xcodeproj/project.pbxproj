@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		AC830BB32E26975D00D9DCC6 /* GithubAPI in Frameworks */ = {isa = PBXBuildFile; productRef = AC830BB22E26975D00D9DCC6 /* GithubAPI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		AC830B992E26974900D9DCC6 /* GitHubRepos-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHubRepos-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC830BB32E26975D00D9DCC6 /* GithubAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 			);
 			name = "GitHubRepos-UI";
 			packageProductDependencies = (
+				AC830BB22E26975D00D9DCC6 /* GithubAPI */,
 			);
 			productName = "GitHubRepos-UI";
 			productReference = AC830B992E26974900D9DCC6 /* GitHubRepos-UI.app */;
@@ -107,6 +113,9 @@
 			);
 			mainGroup = AC830B902E26974900D9DCC6;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				AC830BB12E26975D00D9DCC6 /* XCLocalSwiftPackageReference "../GithubAPI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AC830B9A2E26974900D9DCC6 /* Products */;
 			projectDirPath = "";
@@ -333,6 +342,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		AC830BB12E26975D00D9DCC6 /* XCLocalSwiftPackageReference "../GithubAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../GithubAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AC830BB22E26975D00D9DCC6 /* GithubAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GithubAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AC830B912E26974900D9DCC6 /* Project object */;
 }
