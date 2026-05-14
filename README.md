@@ -2,11 +2,6 @@
 
 A modular iOS project built around the GitHub REST API with a separated architecture for UI and networking logic.
 
-The repository is split into two parts:
-
-- main branch — iOS application and UI layer
-- package branch — reusable Swift Package containing networking, models, repositories, and view models
-
 ## Architecture
 
 The project follows a modular approach where the core API layer is extracted into a standalone Swift Package.
@@ -42,11 +37,11 @@ The UI application consumes the package independently, keeping presentation logi
 - GitHub REST API
 
 ## Project Structure
-main branch
-└── GitHub UI application
 
-package branch
-└── Reusable GitHub API package## Current Status
+main branch — GitHub UI application
+package branch — Reusable GitHub API package
+
+## Current Status
 
 The project is functional and demonstrates the complete interaction flow between the UI layer and a reusable API package.
 
