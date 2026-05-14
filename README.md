@@ -39,6 +39,7 @@ The UI application consumes the package independently, keeping presentation logi
 ## Project Structure
 
 main branch — GitHub UI application
+
 package branch — Reusable GitHub API package
 
 ## Current Status
